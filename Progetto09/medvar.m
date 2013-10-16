@@ -1,4 +1,8 @@
 function [med, var] = medvar(im, totPx)
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     % totPx = length(im(:));
     % vett = sort(unique(im(:)));

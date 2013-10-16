@@ -13,6 +13,10 @@ function [IM, p_borders, p_noSovrapp, p_sovrapp] = particles(im, testArea)
 %   Il parametro testArea indica l'area soglia in numero di pixel per la
 %    quale le particelle verranno riconosciute come sovrapposte.
 %    - Default: 420.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     % Con testArea = 600 vengono gia' riconosciute alcune particelle
     %  sovrapposte come un'unica particella isolata.

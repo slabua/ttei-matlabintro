@@ -1,4 +1,8 @@
 function IM = progetto5(im, action, varargin)
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     action = action(1:3);
     

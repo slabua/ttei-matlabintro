@@ -4,6 +4,10 @@ function IM = hsi2rgb(im)
 % I2 = HSI2RGB(I1);
 % La funzione accetta in ingresso un'immagine HSI double
 %  e restituisce un'immagine RGB a valori double.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [rows, cols, z] = size(im);
     

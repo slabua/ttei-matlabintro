@@ -27,6 +27,10 @@ function RES = progetto6b(im, dim, varargin)
 %
 %   I2 = PROGETTO6B(I1, DIM, filterMatrix)
 %   Accetta la matrice quadrata (DIM, DIM) dei coefficienti del filtro.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     % Raccolta informazioni sull'immagine da elaborare.
     [r, c] = size(im);

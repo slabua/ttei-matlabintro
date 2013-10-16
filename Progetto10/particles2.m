@@ -1,4 +1,8 @@
 function IM = particles(im, percent)
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     se = strel('square', 3);
     p = logical(imopen(im, se));

@@ -15,6 +15,10 @@ function IM = addnoise(im, noise, type)
 %    parametro deve essere preventivamente adeguata al fine di evitare di
 %    ottenere un'immagine finale con un rumore diverso da quello Salt &
 %    Pepper propriamente detto.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [rIm, cIm] = size(im);
     [rN, cN] = size(noise);

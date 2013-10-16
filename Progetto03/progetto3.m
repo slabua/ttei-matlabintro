@@ -1,4 +1,8 @@
 function IM = progetto3(im, height, width)
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [r, c] = size(im);
     

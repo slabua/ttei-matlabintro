@@ -4,6 +4,10 @@ function IM = rgb2hsi(im)
 % I2 = RGB2HSI(I1);
 % La funzione accetta in ingresso un'immagine RGB uint8, uint16 o double
 %  e restituisce un'immagine HSI a valori double.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     if isa(im, 'uint8'),
         maxValue = 255;

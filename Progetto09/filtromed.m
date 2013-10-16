@@ -4,6 +4,10 @@ function IM = filtromed(im, dim)
 %   I2 = FILTROMED(I1, DIM)
 %   La funzione effettua il filtraggio mediano dell'immagine I1 con una
 %    maschera quadrata di lato DIM.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [r, c] = size(im);
     IM = zeros(r, c);

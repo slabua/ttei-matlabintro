@@ -24,6 +24,10 @@ function noiseim = createnoise(type, M, N, varargin)
 %    - Per default vengono disposti otto impulsi su una circonferenza con
 %      raggio = (min(M, N) / 4). L'intensita' degli impulsi e' stata posta
 %      a 10'000.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     % Controllo dei parametri.
     if (nargin == 5),

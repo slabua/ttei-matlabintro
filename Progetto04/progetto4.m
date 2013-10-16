@@ -1,4 +1,8 @@
 function progetto4
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     % imposta i colori dei tre gruppi di classificazione
     colors = [255, 150, 80];

@@ -14,6 +14,10 @@ function IM = periodicfilt(im, threshold, varargin)
 %    la dimensione verra' impostata al valore di default, 3.
 %   Se invece si immette un valore pari ma maggiore di 1, DIM assumera' il
 %    valore DIM + 1.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [r, c] = size(im);
     

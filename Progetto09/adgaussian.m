@@ -11,6 +11,10 @@ function IM = adgaussian(im, maskSize, noise, varargin)
 %   RESTOREDIM = ADGAUSSIAN(NOISYIM, MASKSIZE, NOISE, NOISEMEAN)
 %    Il prototipo a quattro parametri tiene in considerazione un'eventuale
 %    media del rumore gaussiano specificata dall'utente.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [rIm, cIm] = size(im);
     IM = zeros(rIm, cIm);

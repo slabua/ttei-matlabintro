@@ -24,6 +24,10 @@ function [effeteta, teta] = colorgrad(rgb, varargin)
 %   La matrice EffeTeta conterra' il modulo dei vettori di gradiente
 %    per i punti in cui esso sia strettamente maggiore alla soglia T.
 %   La matrice Teta conterra' invece l'angolo dei vettori gradiente.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     rgb = double(rgb);
     sumType = 'vect';

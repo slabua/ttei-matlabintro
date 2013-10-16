@@ -9,6 +9,10 @@ function [indices, IM] = pmatch_morph(im, k)
 %   La matrice I2 sara' invece una copia dell'immagine I1, dove vengono
 %    pero' evidenziate le occorrenze del pattern, in riquadri con dimensione
 %    pari a quella del pattern stesso.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [r, c] = size (im);
     [rk, ck] = size (k);

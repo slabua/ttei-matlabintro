@@ -8,6 +8,10 @@ function IM = adsaltpepper(im, maxDim)
 %   Per ciascun valore di lato della maschera, NOISYIM viene interamente
 %    processata; la dimensione del lato della maschera viene incrementata
 %    soltanto se non e' stato possibile effettuare correzioni adeguate.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
 %   Adattato da adpmedian.m del DIPUM Toolbox.
 

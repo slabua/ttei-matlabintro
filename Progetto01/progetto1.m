@@ -1,4 +1,8 @@
 function progetto1
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     lena = imread('lena_256.bmp');
     peppers = imread('peppers_256.bmp');

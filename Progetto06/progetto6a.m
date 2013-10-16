@@ -11,6 +11,10 @@ function IM = progetto6a(im1, im2, op)
 %    Sottrazione:       '-',
 %    Moltiplicazione:   '*',
 %    Divisione:         ['/' | ':'].
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     im1Class = class(im1);
     im2Class = class(im2);

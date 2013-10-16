@@ -5,6 +5,10 @@ function IM = progetto2(im, action, scale)
 % action: ['s' | 'z']
 %  's' per shrinking, 'z' per zooming.
 % scale: fattore di scala.
+%
+% -- 
+% Salvatore La Bua (slabua@gmail.com)
+% DICGIM - University of Palermo
 
     [r, c] = size(im);
     
